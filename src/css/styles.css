@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+
+
+img {
+
+  max-width: 100%;
+  height: 250px;
+}
+
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.photo-card {
+  flex-basis: calc((100% - 300px) / 3);}
+
+    .load-more {
+      visibility: hidden;
+     
+    }
+
+    .search-form{
+      background-color: aquamarine;
+      
+      
+      padding: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+      
+    }
+    button{
+      background-color: antiquewhite;
+      border-radius: 10%;
+      padding: 10px;
+      border: none;
+    }
+    .btn{
+display: block;
+margin: auto;
+  
+ 
+    }
+
+    input{
+      background-color: antiquewhite;
+      
+      border: none;
+      width: 250px;
+      height: 30px;
+    }
